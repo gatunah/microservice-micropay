@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroPay Dashboard</title>
+
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>MicroPay Dashboard</h1>
+    <p>Monitoreo de microservicios</p>
+</header>
+<main>
+
+<section class="card">
+    <section class="summary">
+
+    <div class="metric">
+        <h3>Clientes</h3>
+        <span id="totalClientes">0</span>
+    </div>
+
+
+    <div class="metric">
+        <h3>Transacciones</h3>
+        <span id="totalTransacciones">0</span>
+    </div>
+
+</section>
+    <h2>Clientes</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Información</th>
+            </tr>
+        </thead>
+
+        <tbody id="clientes">
+            <tr>
+                <td colspan="2">Cargando...</td>
+            </tr>
+        </tbody>
+
+    </table>
+</section>
+
+
+
+<section class="card">
+
+    <h2>Transacciones</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Información</th>
+            </tr>
+        </thead>
+
+        <tbody id="transacciones">
+
+            <tr>
+                <td colspan="2">Cargando...</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+<p>
+MicroPay - Daniela Oyarce
+</p>
+
+</footer>
+
+
+<script src="app-demo.js"></script>
+
+</body>
+
+</html>
