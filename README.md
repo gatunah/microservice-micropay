@@ -19,8 +19,6 @@ La arquitectura implementada considera:
 
 # 🏗️ Arquitectura general
 
-![Arquitectura AWS](img/arquitectura_aws.png)
-
 La solución está compuesta por los siguientes componentes:
 
 - **Dashboard Web:** interfaz frontend encargada de visualizar la información del sistema.
@@ -49,7 +47,7 @@ Incluye:
 - Componentes visuales del sistema.
 - Recursos estáticos necesarios para la interfaz.
 
-![Dashboard Web](img/dashboard-web.png)
+![Dashboard Web](img/dashboard_demo.png)
 
 ---
 
